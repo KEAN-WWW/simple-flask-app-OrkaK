@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Page</title>
+</head>
+<body>
+    {% if username.lower() == "jack" %}
+        <h1>Hello, {{ username.upper() }}!</h1>
+    {% else %}
+        <h1>Hi, Anonymous!</h1>
+    {% endif %}
+</body>
+</html>
